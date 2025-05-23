@@ -29,7 +29,7 @@ const SigninPage = () => {
     }
 
     try {
-      const response = await axios.post('https://intelliquiz-backend-production.up.railway.app/:5000/api/auth/login', form);
+      const response = await axios.post('https://intelliquiz-backend-production.up.railway.app:5000/api/auth/login', form);
       localStorage.setItem('token', response.data.token);
       navigate('/');
     } catch (error) {
