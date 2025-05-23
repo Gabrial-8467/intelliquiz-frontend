@@ -68,7 +68,7 @@ const SignupPage = () => {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/auth/register', form);
+      await axios.post('https://intelliquiz-backend-production.up.railway.app:5000/api/auth/register', form);
       alert('Account created successfully! Please log in.');
       navigate('/signin');
     } catch (error) {
