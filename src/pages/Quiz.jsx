@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Button } from '../components/Button';
-import { shuffleArray } from '../utils/shuffle';
+import { shuffleArray } from '../utils/Shuffle';
 import { getQuizQuestions, saveQuiz } from '../services/quizAPI';
 import jsPDF from 'jspdf';
 import { v4 as uuidv4 } from 'uuid';
