@@ -1,0 +1,72 @@
+.result-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #f9f9ff, #eef2ff);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.result-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #4c4cff;
+}
+
+.result-topic {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.result-score-box {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.result-score {
+  font-size: 2rem;
+  color: #333;
+}
+
+.result-percentage {
+  font-size: 1.5rem;
+  color: #4caf50;
+  margin: 10px 0;
+}
+
+.result-feedback {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.result-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.result-history {
+  margin-top: 30px;
+}
+
+.result-history table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.result-history th, .result-history td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
