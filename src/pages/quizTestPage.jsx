@@ -97,7 +97,7 @@ const QuizTestPage = () => {
         // First check if user has previous attempts
         const token = localStorage.getItem('token');
         if (token) {
-          const historyResponse = await fetch(https://intelliquiz-backend-production.up.railway.app/:5000/api/user/quiz-history/${topic}`, {
+          const historyResponse = await fetch(https://intelliquiz-backend-production.up.railway.app:5000/api/user/quiz-history/${topic}`, {
             headers: {
               'Authorization': `Bearer ${token}`
             }
