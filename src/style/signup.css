@@ -1,0 +1,47 @@
+.password-requirements {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.password-requirement {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.requirement-icon {
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.requirement-icon.valid {
+  color: #28a745;
+}
+
+.requirement-icon.invalid {
+  color: #dc3545;
+}
+
+.password-requirement span.valid {
+  color: #28a745;
+}
+
+.password-requirement span.invalid {
+  color: #dc3545;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+} 

@@ -1,0 +1,125 @@
+.auth-wrapper {
+    display: flex;
+    height: 100vh;
+    background: #f0f4ff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .auth-left {
+    flex: 1;
+    background: linear-gradient(135deg, #3a8dff, #0059c1);
+    color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .auth-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .auth-left p {
+    font-size: 1.1rem;
+    max-width: 400px;
+    line-height: 1.6;
+  }
+  
+  .auth-left img {
+    width: 90%;
+    max-width: 400px;
+    margin-top: 2rem;
+  }
+  
+  .auth-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 2rem;
+  }
+  
+  .form-box {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .form-box h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #222;
+  }
+  
+  .input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background: #f0f5ff;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+  }
+  
+  .input-box svg {
+    color: #3a8dff;
+    margin-right: 0.5rem;
+  }
+  
+  .input-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background: #3a8dff;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background: #0059c1;
+  }
+  
+  .toggle-mode {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #555;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .auth-wrapper {
+      flex-direction: column;
+    }
+  
+    .auth-left {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .auth-left img {
+      margin: 1.5rem auto 0;
+    }
+  }
+  
